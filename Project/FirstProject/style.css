@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+  
+body {
+    background-color: black;
+}
+  
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    href: "index.html";
+}
+  
