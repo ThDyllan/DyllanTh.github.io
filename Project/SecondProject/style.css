@@ -2,7 +2,7 @@
     --bg-color: #1f252d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: rgb(255, 0, 0);
+    --main-color: #0ef;
 }
 
 html {
@@ -23,7 +23,7 @@ body {
 }
 
 #game-description {
-    max-width: 800px; /* Ajusté la largeur */
+    max-width: 600px;
     text-align: justify;
     padding: 20px;
     background-color: var(--second-bg-color);
@@ -59,7 +59,7 @@ ul {
 }
 
 .btn-container {
-    text-align: center; /* Centrer le bouton */
+    text-align: center;
 }
 
 .btn {

@@ -1,4 +1,6 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +10,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-
 <body>
     <header class="header">
         <a href="" class="logo">Portfolio</a>
@@ -16,10 +17,11 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
+            <a href="#home" class="active">Accueil</a>
+            <a href="#about">À Propos</a>
+            <a href="#skills">Compétences</a>
             <a href="#portfolio">Portfolio</a>
+            <a href="#veille">Veille</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -28,14 +30,14 @@
         <div class="home-content">
             <h3>Bonjour !</h3>
             <h1>Voici Mon <span>Portfolio</span></h1>
-            <p>Chaque projet que j'ai réalisé est une histoire que je suis fière de raconter à travers mon portfolio.</p>
+            <p>Chaque projet que j'ai réalisé est une histoire que je suis fier de raconter à travers mon portfolio.</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="CV Dyllan THOUVIGNON.pdf" download class="btn">Télécharger le CV</a>
         </div>
 
         <div class="home-img">
@@ -49,39 +51,59 @@
         </div>
 
         <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Etudiant à Science U</h3>
+            <h2 class="heading">À Propos de <span>Moi</span></h2>
+            <h3>Étudiant à Science U</h3>
             <p>En tant qu'étudiant passionné par l'informatique, je suis ravi de présenter mon portfolio,
                 reflétant mon parcours, mes compétences et mes réalisations dans le domaine
                 du développement web et de la programmation.</p>
-            <a href="" class="btn">Read More</a> 
+            <a href="Fiche.html" class="btn">Fiche Synthèse</a>
         </div>
     </section>
 
+    <section class="formations" id="formations">
+        <h2>Formations</h2>
+        <div class="formations-container">
+            <div class="formation">
+                <h3>2023 - 2024</h3>
+                <p>Master en Informatique - Science U</p>
+            </div>
+            <div class="formation">
+                <h3>2022 - 2023</h3>
+                <p>Licence en Informatique - Science U</p>
+            </div>
+            <div class="formation">
+                <h3>2021 - 2022</h3>
+                <p>Baccalauréat en Sciences - Lycée XYZ</p>
+            </div>
+            <!-- Ajoutez d'autres formations si nécessaire -->
+        </div>
+    </section>
+    
+
     <section class="skills" id="skills">
-        <h2 class="heading">Mes <span>Skills</span></h2>
+        <h2 class="heading">Mes <span>Compétences</span></h2>
 
         <div class="skills-container">
             <div class="skills-box">
                 <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
-                <p>I conjure captivating web experiences. Explore my portfolio for a glimpse into the digital realms I've crafted.</p>
-                <a href="Skills/Fiche.html" class="btn">Read More</a>
+                <h3>Développement Web</h3>
+                <p>Je crée des expériences web captivantes. Explorez mon portfolio pour un aperçu des mondes numériques que j'ai conçus.</p>
+                <a href="Skills/Webdev.html" class="btn">En savoir plus</a>
             </div>
 
             <div class="skills-box">
                 <i class='bx bxs-paint'></i>
-                <h3>Graphic Design</h3>
-                <p>I craft visual wonders with Photoshop precision. From sleek branding to vibrant graphics, 
-                    I transform concepts into captivating realities.</p>
-                <a href="Skills/Fiche.html" class="btn">Read More</a>
+                <h3>Design Graphique</h3>
+                <p>Je crée des merveilles visuelles avec une précision Photoshop. De la création de marques élégantes à des graphismes vibrants,
+                    je transforme les concepts en réalités captivantes.</p>
+                <a href="Skills/Photoshop.html" class="btn">En savoir plus</a>
             </div>
 
             <div class="skills-box">
                 <i class='bx bx-bar-chart-alt'></i>
-                <h3>Video Editing</h3>
-                <p>I sculpt stories with video edits. Dive into my portfolio for a glimpse of how I transform visuals into compelling narratives.</p>
-                <a href="Skills/Fiche.html" class="btn">Read More</a>
+                <h3>Montage Vidéo</h3>
+                <p>Je sculpte des histoires avec des montages vidéo. Plongez dans mon portfolio pour voir comment je transforme les visuels en récits convaincants.</p>
+                <a href="Skills/Editing.html" class="btn">En savoir plus</a>
             </div>
         </div>
     </section>
@@ -94,7 +116,7 @@
                 <img src="images/Chaseanddodge.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Chase and Dodge</h4>
-                    <p>First Projet</p>
+                    <p>Premier Projet</p>
                     <a href="Project/FirstProject/accueil.html"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -102,9 +124,9 @@
             <div class="portfolio-box">
                 <img src="images/tic-tac-toe.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Tic Tac Toe</h4>
-                    <p>Second Projet</p>
-                    <a href="Project/SecondProject/index.html"><i class='bx bx-link-external'></i></a>
+                    <h4>Morpion</h4>
+                    <p>Deuxième Projet</p>
+                    <a href="Project/SecondProject/accueil.html"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -112,8 +134,8 @@
                 <img src="images/gamedevplanet.gif" alt="">
                 <div class="portfolio-layer">
                     <h4>Unity</h4>
-                    <p>Third Projet - Under development</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <p>Troisième Projet - En développement</p>
+                    <a href="Project/ThirdProject/accueil.html"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -121,16 +143,16 @@
                 <img src="images/JetSki_PhotoAcceuil2.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Dynamic Jet</h4>
-                    <p>First School Project</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <p>Premier Projet Scolaire</p>
+                    <a href="Project/FourthProject/accueil.html"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/GSBlogo.png" alt="">
+                <img src="images/portfolio1.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>GSB</h4>
-                    <p>Second School Project</p>
+                    <p>Deuxième Projet Scolaire</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -139,33 +161,45 @@
                 <img src="images/pointd'interogation.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Secret</h4>
-                    <p>Incoming</p>
+                    <p>À venir</p>
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="veille" id="veille">
+        <div class="veille-content">
+            <h2 class="heading">Veille <span>Technologique</span></h2>
+            <h3>L'Impact de la Réalité Virtuelle et de la Réalité Augmentée sur le Futur du Développement d'Applications</h3>
+            <p>La Réalité Virtuelle (RV) et la Réalité Augmentée (RA) sont deux technologies révolutionnaires qui continuent de redéfinir notre manière d'interagir avec le monde qui nous entoure.
+                Leur influence sur le développement d'applications est indéniable, ouvrant la voie à de nouvelles expériences immersives et transformant la façon dont nous utilisons les applications au quotidien.</p>
+            <div class="btn-veille">
+                <a href="Veille.html" class="btn">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
+        <h2 class="heading">Contactez-<span>Moi !</span></h2>
 
         <form action="#">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="Nom complet">
+                <input type="email" placeholder="Adresse e-mail">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Moblie Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" placeholder="Numéro de téléphone">
+                <input type="text" placeholder="Objet de l'e-mail">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+            <input type="submit" value="Envoyer le message" class="btn">
         </form>
     </section>
 
     <footer class="footer">
         <div class="footer-text">
-            <p>© 2023 Dyllan's Portfolio. All rights reserved.</p>
+            <p>Dyllan THOUVIGNON</p>
         </div>
 
         <div class="footer-iconTop">
@@ -173,7 +207,7 @@
         </div>
     </footer>
 
-     
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
 </body>

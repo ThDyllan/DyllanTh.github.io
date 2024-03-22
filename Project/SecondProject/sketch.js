@@ -126,13 +126,13 @@ function checkMate() {
     }
     if (end) {
         textSize(64);
-        fill("white")
+        fill("Blue")
         textAlign(CENTER);
-        text("Bravo le joueur " + turn + " gagne", maxWidth / 2, maxHeight / 2);
+        text("Bravo, le joueur " + turn + " gagne", maxWidth / 2, maxHeight / 2);
     } else if (cases_left === 0) {
         textSize(64);
-        fill("white")
+        fill("Blue")
         textAlign(CENTER);
-        text("Egalite", maxWidth / 2, maxHeight / 2);
+        text("Macth nul", maxWidth / 2, maxHeight / 2);
     }
 }
