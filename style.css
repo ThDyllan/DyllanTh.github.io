@@ -190,11 +190,14 @@
         padding: 10rem 9% 2rem;
         text-align: center;
     }
+
+    .formations h2 span {
+        color: var(--main-color);
+    }
     
     .formations h2 {
         margin-bottom: 5rem;
         font-size: 4.5rem;
-        color: var(--main-color);
     }
     
     
@@ -225,6 +228,12 @@
     .formation p {
         font-size: 1.6rem;
     }
+
+    .formation img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+    
     
     
     
@@ -287,6 +296,10 @@
 
     .skills h2 {
         margin-bottom: 5rem;
+    }
+    
+    .skills span {
+        color: var(--main-color);
     }
 
     .skills-container {
